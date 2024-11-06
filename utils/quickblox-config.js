@@ -1,4 +1,5 @@
 // utils/quickblox-config.js
+// https://youtu.be/JYESeMGi4Gc
 export const QB_CONFIG = {
     appId: '104621',
     authKey: 'ak_5jd-KzYXDASnw2z',

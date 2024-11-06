@@ -1,4 +1,5 @@
 import { QB_CONFIG } from './utils/quickblox-config.js';
+// import 'dotenv/config'; // This will load environment variables from .env file
 
 // const QB = require('quickblox');
 
