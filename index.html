@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickBlox Chat App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="chatApp">
+        <h1>QuickBlox Chat Room</h1>
+        
+        <!-- Login Section -->
+        <div id="loginSection">
+            <input type="text" id="username" placeholder="Enter username">
+            <input type="password" id="password" placeholder="Enter password">
+            <button id="loginButton">Login</button>
+        </div>
+
+        <!-- Chat Section -->
+        <div id="chatSection" style="display:none;">
+            <div id="chatMessages"></div>
+            <input type="text" id="messageInput" placeholder="Type a message...">
+            <button id="sendButton" class="btn">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/quickblox/quickblox.min.js"></script>
+</body>
+</html>
